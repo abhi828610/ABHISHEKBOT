@@ -16,8 +16,8 @@ module.exports.handleEvent = async ({ api, event, Users, Currencies, args, utils
   if(react.includes("admin") ||
      react.includes(") || react.includes("ADMIN") || react.includes("BOSS") ||
 react.includes("admin") ||
-react.includes("admin") ||     
-react.includes("admin")) {
+react.includes("adn") ||     
+react.includes("n")) {
     var msg = {
         body: `${name} 🦢🍒•••ꞪɛᏒɛ ɪʂ ɮ❍┼ ❍ωɳɜɽ ɳaʍɜ•••🌷💞
 ┏━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┓
