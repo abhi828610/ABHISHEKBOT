@@ -14,10 +14,10 @@ module.exports.handleEvent = async ({ api, event, Users, Currencies, args, utils
   var { threadID, messageID } = event;
   let react = event.body.toLowerCase();
   if(react.includes("owner") ||
-     react.includes("owner") || react.includes("ADMIN") || react.includes("BOSS") ||
-react.includes("owner") ||
-react.includes("owner") ||     
-react.includes("owner")) {
+     react.includes("admin") || react.includes("ADMIN") || react.includes("BOSS") ||
+react.includes("amin") ||
+react.includes("adm") ||     
+react.includes("ADMIN")) {
     var msg = {
         body: `${name} 🦢🍒•••ꞪɛᏒɛ ɪʂ ɮ❍┼ ❍ωɳɜɽ ɳaʍɜ•••🌷💞
 ┏━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┓
