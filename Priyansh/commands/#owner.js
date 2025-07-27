@@ -13,11 +13,11 @@ module.exports.handleEvent = async ({ api, event, Users, Currencies, args, utils
   var name = await Users.getNameUser(event.senderID);
   var { threadID, messageID } = event;
   let react = event.body.toLowerCase();
-  if(react.includes("OWNER") ||
-     react.includes("Oner") || react.includes("Owner") || react.includes("owner") ||
-react.includes("OWNER") ||
-react.includes("Sir") ||     
-react.includes("sir")) {
+  if(react.includes("") ||
+     react.includes("") || react.includes("Owner") || react.includes("owner") ||
+react.includes("") ||
+react.includes("") ||     
+react.includes("")) {
     var msg = {
         body: `${name} 🦢🍒•••ꞪɛᏒɛ ɪʂ ɮ❍┼ ❍ωɳɜɽ ɳaʍɜ•••🌷💞
 ┏━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┓
