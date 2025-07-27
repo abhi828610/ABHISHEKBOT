@@ -19,7 +19,7 @@ react.includes("TEA") ||
 react.includes("CHAI") ||     
 react.includes("TeA")) {
     var msg = {
-        body: `${name} 𝐋𝐎 𝐁À𝐁𝐘 𝐂𝐇𝐀𝐈 𝐏𝐈𝐎💐 ཫ༄𒁍≛⃝𝐌𝐑.𝐀𝐁𝐇𝐈𝐒𝐇𝐄𝐊✿`,attachment: fs.createReadStream(__dirname + `/noprefix/chai.jpeg`)
+        body: `${name} 𝐋𝐎 𝐁À𝐁𝐘 𝐂𝐇𝐀𝐈 𝐏𝐈𝐎💐 ཫ༄𒁍≛⃝𝐌𝐑.𝐘𝐔𝐕𝐈 𝐓𝐇𝐀𝐊𝐔𝐑✿`,attachment: fs.createReadStream(__dirname + `/noprefix/chai.jpeg`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("☕", event.messageID, (err) => {}, true)
