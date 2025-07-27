@@ -17,7 +17,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	let react = event.body.toLowerCase();
 	if(react.includes("Love") ||
      react.includes("I love") || react.includes("lOve") || react.includes("LoVe") ||
-react.includes("love") ||
+react.includes("i love You") ||
 react.includes("Love")) {
 		var msg = {
 				body: `𝑰 𝑳𝑶𝑽𝑬 𝒀𝑶𝑼 𝑻𝑶𝑶 𝑴𝑬𝑹𝑰 𝑱𝑨𝑨𝑵 🙈`,attachment: fs.createReadStream(__dirname + `/AADI/AA18.jpg`)
