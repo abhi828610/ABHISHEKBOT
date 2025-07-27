@@ -19,7 +19,7 @@ module.exports.run = async({api,event,args,client,Users,Threads,__GLOBAL,Currenc
 const axios = global.nodemodule["axios"];
 const request = global.nodemodule["request"];
 const fs = global.nodemodule["fs-extra"];
-   var hi = ["- 🥀👑𝘾𝙍𝙀𝘿𝙄𝙏𝙎:👑🍁-💐--*★᭄𝗢𝘄𝗻𝗲𝗿 ཫ༄𒁍≛⃝𝐌𝐫.𝐀𝐁𝐇𝐈𝐒𝐇𝐄𝐊🍒🕊️"];
+   var hi = ["- 🥀👑𝘾𝙍𝙀𝘿𝙄𝙏𝙎:👑🍁-💐--*★᭄𝗢𝘄𝗻𝗲𝗿 ཫ༄𒁍≛⃝𝐌𝐫.𝐘𝐔𝐕𝐈 𝐓𝐇𝐀𝐊𝐔𝐑🍒🕊️"];
   var know = hi[Math.floor(Math.random() * hi.length)];
   var link = [
    "https://i.imgur.com/kiWgfN9.mp4",
