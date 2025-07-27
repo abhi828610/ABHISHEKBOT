@@ -14,7 +14,7 @@ module.exports.handleEvent = async ({ api, event, Users, Currencies, args, utils
   var { threadID, messageID } = event;
   let react = event.body.toLowerCase();
   if(react.includes("admin") ||
-     react.includes(") || react.includes("ADMIN") || react.includes("BOSS") ||
+     react.includes("admin") || react.includes("ADMIN") || react.includes("BOSS") ||
 react.includes("admin") ||
 react.includes("adn") ||     
 react.includes("n")) {
