@@ -19,7 +19,7 @@ react.includes("kiss") ||
 react.includes("kiss") ||     
 react.includes("kiss")) {
     var msg = {
-        body: `${name} 𝐇𝐎𝐍𝐓𝐇 𝐑𝐀𝐒𝐈𝐋𝐄 𝐓𝐄𝐑𝐄 𝐇𝐎𝐍𝐓𝐇 𝐑𝐀𝐒𝐈𝐋𝐄 𝐔𝐌𝐀𝐇𝐇 𝐁𝐀𝐁𝐘😋✿`,attachment: fs.createReadStream(__dirname + `/noprefix/kiss.jpg`)
+        body: `${name} 𝐇𝐎𝐍𝐓𝐇 𝐑𝐀𝐒𝐈𝐋𝐄 𝐓𝐄𝐑𝐄 𝐇𝐎𝐍𝐓𝐇 𝐑𝐀𝐒𝐈𝐋𝐄 𝐔𝐌𝐀𝐇𝐇 𝐁𝐀𝐁𝐘😋✿`,attachment: fs.createReadStream(__dirname + `/noprefix/kiss.gif`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("💋", event.messageID, (err) => {}, true)
