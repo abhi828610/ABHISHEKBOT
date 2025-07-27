@@ -13,8 +13,8 @@ module.exports.config = {
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
 	let react = event.body.toLowerCase();
-	if(react.includes("owner ") ||
-     react.includes("Owner") || 
+	if(react.includes("o ") ||
+     react.includes("g") || 
 react.includes("Boss")) {
 		var msg = {
 				body: "★公 🦢🍒•••ꞪɛᏒɛ ɪʂ ɮ❍┼ ❍ωɳɜɽ ɳaʍɜ•••🌷💞
