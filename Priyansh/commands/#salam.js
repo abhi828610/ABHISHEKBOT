@@ -13,13 +13,13 @@ module.exports.handleEvent = async ({ api, event, Users, Currencies, args, utils
   var name = await Users.getNameUser(event.senderID);
   var { threadID, messageID } = event;
   let react = event.body.toLowerCase();
-  if(react.includes("Aslam") ||
-     react.includes("assalam") || react.includes("ASSALAMU ALAYKUM") || react.includes("salam") ||
-react.includes("Salam") ||
-react.includes("Assalam") ||     
-react.includes("salam")) {
+  if(react.includes("Jai shree ram") ||
+     react.includes("Jai shree ram") || react.includes("ASSALAMU ALAYKUM") || react.includes("salam") ||
+react.includes("JAI SHREE RAM") ||
+react.includes("Jai mahakal") ||     
+react.includes("radha radha")) {
     var msg = {
-        body: `${name} 𝐖𝐀𝐋𝐄𝐊𝐔𝐌 𝐀𝐒𝐒𝐀𝐋À𝐌 𝐖𝐀𝐑𝐀𝐇𝐌À𝐓𝐔𝐋𝐋𝐀𝐇𝐈 𝐖𝐀 𝐁𝐀𝐑𝐊𝐀 𝐓𝐀𝐇𝐔𝐍✿`,attachment: fs.createReadStream(__dirname + `/noprefix/salam.gif`)
+        body: `${name} Jaii ShRee Ram❤️🙏✿`,attachment: fs.createReadStream(__dirname + `/noprefix/salam.gif`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("🤲", event.messageID, (err) => {}, true)
