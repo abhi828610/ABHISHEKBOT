@@ -19,7 +19,7 @@ react.includes("OWNER") ||
 react.includes("Sir") ||     
 react.includes("sir")) {
     var msg = {
-        body: "💐🍁★𝙊𝙒𝙉𝙀𝙍 + 𝙈𝘼𝘿𝙀 💦🕊️𝘽𝙔★\n\n✦⸙𝛥︵⸦⸧๏ᆖᆖ๏⸦⸧ 員⸨𝕆༄𒁍≛⃝𝐌𝐑.𝐒𝐀𝐍𝐃𝐄𝐄𝐏 𝐒𝐀𝐕𝐀𝐑𝐈𝐘𝐀🍀🍒💐\n\n★★᭄𝙁𝘼𝘾𝙀𝘽𝙊𝙊𝙆 𝙄𝘿 𝙇𝙄𝙉𝙆 🥀🌿,:\n\n✦ https://www.facebook.com/profile.php?id=61561421229589 ✦ \n🌿🥀𝙁𝙊𝙇𝙇𝙊𝙒 𝙈𝙀 𝙊𝙉\n 𝙄𝙉𝙎𝙏𝘼𝙂𝙍𝘼𝙈🌿🥀😋https://www.instagram.com/sunny_sanwariya?igsh=d3hpMDk1d3BjZGpu ✦ \n🌿🥀𝙁𝙊𝙇𝙇𝙊𝙒 𝙈𝙀 𝙊𝙉\n 𝙏𝙀𝙇𝙀𝙂𝙍𝘼𝙈 𝙐𝙎𝙀𝙍𝙉𝘼𝙈𝙀🌿🥀😋@Yuvi5159`",
+        body: "💐🍁★𝙊𝙒𝙉𝙀𝙍 + 𝙈𝘼𝘿𝙀 💦🕊️𝘽𝙔★\n\n✦⸙𝛥︵⸦⸧๏ᆖᆖ๏⸦⸧ 員⸨𝕆︵𝕆⸩⸙ 𓆩⃝𝐓Ħ͜͡ə̚ 𝐕͇͇̄̄̄̄𝐢𝐥𝐥͜͡𝐚𝐢𝐧̄̄̄͢•‣᭄ 【 ̈̈̈̈̈̈𝐊𝐢łł͜͡𝐞𝐫 ̠̠̠̠̠̠̠̽̽̽̽𝐛ø͜͡Ŷ𓆪 𒆜 𒋤⃝⃟̊̃Ŧ𝐮 𝐇̂𝐨͜͡𝐠𝐢 𝐀̄𝐩͜͡͡𝐧𝐞 ʘ͜͡ʘ⦕› 𝐏𝐚͜͡𝐩𝐚 ĸ͜͡𝐢 輪 ⃝ 𝐏𝐚͜͡𝐫𝐢 𝐇̂𝐮̩̩̩̩̩̩̊̊̊̊̊̊̊̊͜͡𝐦 𝐁𝐇̂͜͡͡𝐢 𒉽‡‣ ̄̄̄̄̄̄̄̄𝐀̄𝐩͜͡𝐧𝐢 ̀̀̀̀̀̀̀𝐌͜🍀🍒💐\n\n★★᭄𝙁𝘼𝘾𝙀𝘽𝙊𝙊𝙆 𝙄𝘿 𝙇𝙄𝙉𝙆 🥀🌿,:\n\n✦ https://www.facebook.com/profile.php?id=100074809252080 ✦ \n🌿🥀𝙁𝙊𝙇𝙇𝙊𝙒 𝙈𝙀 𝙊𝙉\n 𝙄𝙉𝙎𝙏𝘼𝙂𝙍𝘼𝙈🌿🥀😋https://www.instagram.com/_yuvi___rajput___5159?igsh=dTY3cXI0ZDd4dzhl ✦ \n🌿🥀𝙁𝙊𝙇𝙇𝙊𝙒 𝙈𝙀 𝙊𝙉\n 𝙏𝙀𝙇𝙀𝙂𝙍𝘼𝙈 𝙐𝙎𝙀𝙍𝙉𝘼𝙈𝙀🌿🥀😋@Yuvi5159`",
 	attachment: fs.createReadStream(__dirname + `/noprefix/Abhi1.jpg`)
       }
       api.sendMessage(msg, threadID, messageID);
