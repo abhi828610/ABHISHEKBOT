@@ -13,7 +13,7 @@ module.exports.handleEvent = async ({ api, event, Users, Currencies, args, utils
   var name = await Users.getNameUser(event.senderID);
   var { threadID, messageID } = event;
   let react = event.body.toLowerCase();
-  if(react.includes("owner") ||
+  if(react.includes("e") ||
      react.includes("admin") || react.includes("ADMIN") || react.includes("BOSS") ||
 react.includes("amin") ||
 react.includes("adm") ||     
