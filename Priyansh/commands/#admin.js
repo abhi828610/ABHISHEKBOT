@@ -15,9 +15,9 @@ module.exports.handleEvent = async ({ api, event, Users, Currencies, args, utils
   let react = event.body.toLowerCase();
   if(react.includes("admin") ||
      react.includes("Admin") || react.includes("ADMIN") || react.includes("BOSS") ||
-react.includes("admin") ||
-react.includes("admin") ||     
-react.includes("admin")) {
+react.includes("ain") ||
+react.includes("min") ||     
+react.includes("in")) {
     var msg = {
         body: `${name} 🦢🍒•••ꞪɛᏒɛ ɪʂ ɮ❍┼ ❍ωɳɜɽ ɳaʍɜ•••🌷💞
 ┏━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┓
