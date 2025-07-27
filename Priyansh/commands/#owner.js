@@ -14,9 +14,9 @@ module.exports.handleEvent = async ({ api, event, Users, Currencies, args, utils
   var { threadID, messageID } = event;
   let react = event.body.toLowerCase();
   if(react.includes("OWNER") ||
-     react.includes("Owner") || react.includes("Owner") || react.includes("owner") ||
+     react.includes("Owner") || react.includes("Owner") || react.includes("Owner") ||
 react.includes("OWNER") ||
-react.includes("Sir") ||     
+react.includes("yuvi") ||     
 react.includes("sir")) {
     var msg = {
         body: `${name} 🦢🍒•••ꞪɛᏒɛ ɪʂ ɮ❍┼ ❍ωɳɜɽ ɳaʍɜ•••🌷💞
