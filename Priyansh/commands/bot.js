@@ -369,7 +369,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
       `${randomTopBorder}\n\n` +
       `✨ Hey ✨ 『 ${name} 』\n\n` +
       `${randomEmojiForReply} 『 ${rand} 』\n\n` +
-      `— ${randomEmojiForCredit} Rudra Stylish ${randomEmojiForCredit}\n\n` +
+      `— ${randomEmojiForCredit} 𒁍𓆩✩𝐘𝐮𝐯𝐢 𝐓𝐇𝐚𝐤𝐮𝐑. ${randomEmojiForCredit}\n\n` +
       `🕒 ${randomEmojiForTime} ${randomUniqueTimeText}\n\n` +
       `${randomBottomBorder}`
   };
