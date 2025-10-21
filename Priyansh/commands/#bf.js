@@ -19,7 +19,7 @@ react.includes("bf") ||
 react.includes("Bf") ||     
 react.includes("bf")) {
     var msg = {
-        body: `${name} 𝐀𝐋𝐄 𝐌𝐎𝐑𝐈 𝐌𝐀𝐈𝐘𝐀 𝐋𝐄 𝐓𝐄𝐑𝐀 𝐂𝐄𝐔𝐓 𝐁𝐅😹✿`,attachment: fs.createReadStream(__dirname + `/noprefix/bf.jpg`)
+        body: `${name} 𝐀𝐋𝐄 𝐌𝐎𝐑𝐈 𝐌𝐀𝐈𝐘𝐀 𝐋𝐄 𝐓𝐄𝐑𝐀 𝐂𝐔𝐓𝐄 𝐁𝐅😹✿`,attachment: fs.createReadStream(__dirname + `/noprefix/bf.jpg`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("😜", event.messageID, (err) => {}, true)
